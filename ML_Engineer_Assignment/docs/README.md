@@ -1,5 +1,3 @@
-Below is a complete, ready-to-paste README file in Markdown format:
-
 # Machine Learning Engineer Assignment
 
 ## Overview
@@ -67,11 +65,7 @@ Ensure you run this from the project root so that Python can locate the `src` pa
 ## Report
 A comprehensive project report detailing the methodology, procedures, outputs, and model performance is available in `docs/report.pdf`.
 
-## License
-[Include your license information here.]
-
 ## Contact
-For questions or further information, please contact [Your Email].
+For questions or further information, please contact [krishlakhani46767@gmail.com].
 ```
 
-Simply copy and paste this content into your `README.md` file, and adjust any details (like repository URL, license, and contact information) as needed.
