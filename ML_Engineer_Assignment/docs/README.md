@@ -67,5 +67,3 @@ A comprehensive project report detailing the methodology, procedures, outputs, a
 
 ## Contact
 For questions or further information, please contact [krishlakhani46767@gmail.com].
-```
-
