@@ -1,6 +1,5 @@
 Below is a complete, ready-to-paste README file in Markdown format:
 
-```markdown
 # Machine Learning Engineer Assignment
 
 ## Overview
