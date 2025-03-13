@@ -1,24 +1,16 @@
+Below is a complete, ready-to-paste README file in Markdown format:
+
+```markdown
 # Machine Learning Engineer Assignment
 
 ## Overview
-This repository contains a complete machine learning pipeline for predicting DON concentration (vomitoxin\_ppb) in corn samples using hyperspectral imaging data. The project includes data preprocessing, visualization, model training, evaluation, interpretability analysis using SHAP, and deployment integration via a Streamlit app.
-
-## Features
-- **Data Preprocessing:**  
-  Handles missing values, normalizes feature data, and drops non-numeric columns (except the target).
-- **Exploratory Data Analysis (EDA):**  
-  Generates overlaid histograms, boxplots, line plots of average reflectance, and correlation heatmaps—all in a single consolidated figure.
-- **Model Training and Evaluation:**  
-  Trains a neural network regression model with early stopping. Evaluates performance using MAE, RMSE, and R² metrics along with diagnostic plots.
-- **Model Interpretability:**  
-  Uses SHAP to interpret model predictions and visualize feature importance.
-- **Deployment-Ready:**  
-  The trained model and scaler are saved for deployment, and a Streamlit app is provided for both manual and batch prediction via CSV upload.
+This repository contains a complete machine learning pipeline for predicting DON concentration (vomitoxin_ppb) in corn samples using hyperspectral imaging data. The project covers data preprocessing, exploratory data analysis (EDA), model training and evaluation, and model interpretability using SHAP. The solution is designed to be modular, production-ready, and easy to extend.
 
 ## Directory Structure
+```
 ML_Engineer_Assignment/
 ├── data/
-│   └── MLE-Assignment.csv         # The hyperspectral dataset
+│   └── MLE-Assignment.csv         # Hyperspectral dataset file
 ├── docs/
 │   ├── README.md                  # Project overview, installation instructions, and usage details
 │   └── report.pdf                 # Final compiled PDF report (or report.tex for LaTeX source)
@@ -32,19 +24,55 @@ ML_Engineer_Assignment/
 │   └── test_pipeline.py           # Unit tests for functions in ml_pipeline.py
 ├── Dockerfile                     # Docker configuration for containerization (if needed)
 └── requirements.txt               # List of required Python packages
+```
 
 ## Installation
-1. **Clone the repository:**
+1. **Clone the Repository:**
    ```bash
    git clone https://github.com/yourusername/ML_Engineer_Assignment.git
    cd ML_Engineer_Assignment
-2. **Create and activate a virtual environment**
-   ```bash
-   python -m venv venv
-   source venv/bin/activate   # For macOS/Linux
-   # or on Windows:
-   venv\Scripts\activate
-3.**Install the required packages**
-  ```bash
- pip install -r requirements.txt
+   ```
 
+2. **Create and Activate a Virtual Environment:**
+   - On macOS/Linux:
+     ```bash
+     python3 -m venv venv
+     source venv/bin/activate
+     ```
+   - On Windows:
+     ```bash
+     python -m venv venv
+     venv\Scripts\activate
+     ```
+
+3. **Install Dependencies:**
+   ```bash
+   pip install -r requirements.txt
+   ```
+
+## Usage
+### Running the Machine Learning Pipeline
+Execute the pipeline to load data, preprocess, visualize, train, evaluate, and interpret the model:
+```bash
+python src/ml_pipeline.py
+```
+This script will also save the trained model and scaler in the `models/` directory.
+
+### Running the Unit Tests
+To run the unit tests, execute:
+```bash
+python -m unittest discover tests
+```
+Ensure you run this from the project root so that Python can locate the `src` package correctly.
+
+## Report
+A comprehensive project report detailing the methodology, procedures, outputs, and model performance is available in `docs/report.pdf`.
+
+## License
+[Include your license information here.]
+
+## Contact
+For questions or further information, please contact [Your Email].
+```
+
+Simply copy and paste this content into your `README.md` file, and adjust any details (like repository URL, license, and contact information) as needed.
