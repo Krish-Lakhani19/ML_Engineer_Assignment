@@ -26,8 +26,8 @@ ML_Engineer_Assignment/
 ## Installation
 1. **Clone the Repository:**
    ```bash 
+   git clone https://github.com/Krish-Lakhani19/ML_Engineer_Assignment
    cd ML_Engineer_Assignment
-       https://github.com/Krish-Lakhani19/ML_Engineer_Assignment
    ```
 
 2. **Create and Activate a Virtual Environment:**
