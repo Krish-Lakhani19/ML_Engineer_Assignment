@@ -25,8 +25,7 @@ ML_Engineer_Assignment/
 
 ## Installation
 1. **Clone the Repository:**
-   ```bash
-   git clone https://github.com/yourusername/ML_Engineer_Assignment.git
+   ```bash https://github.com/Krish-Lakhani19/ML_Engineer_Assignment
    cd ML_Engineer_Assignment
    ```
 
